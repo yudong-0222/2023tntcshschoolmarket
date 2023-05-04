@@ -4,6 +4,7 @@ import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
 import NewFeatures from './NewFeatures';
 import Footer from './Footer';
+import MenuCard from './MenuCard';
 
 export {
   Navbar,
@@ -11,6 +12,7 @@ export {
   TypingText,
   StartSteps,
   NewFeatures,
+  MenuCard,
   ExploreCard,
   Footer,
 };

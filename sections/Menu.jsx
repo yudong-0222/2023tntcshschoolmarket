@@ -4,11 +4,11 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { exploreWorlds } from '../constants';
+import { menupng } from '../constants';
 import { staggerContainer } from '../utils/motion';
-import { ExploreCard, TitleText, TypingText } from '../components';
+import { MenuCard, TitleText, TypingText } from '../components';
 
-const Explore = () => {
+const Menu = () => {
   const [active, setActive] = useState('world-2');
 
   return (
@@ -20,14 +20,14 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| 吐司串口味與可口零食🍯" textStyles="text-center" />
+        <TypingText title="|想吃點什麼呢?" textStyles="text-center" />
         <TitleText
-          title={<>選擇你喜歡的 <br className="md:block hidden" /> 吐司串口味🍞和其他美味零食🍡</>}
+          title={<><br className="md:block hidden" />我們的主菜單</>}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
-            <ExploreCard
+        <div className="mt-[50px] flex lg:flex-row lg:justify-center flex-col min-h-[70vh] gap-5">
+          {menupng.map((world, index) => (
+            <MenuCard
               key={world.id}
               {...world}
               index={index}
@@ -41,4 +41,4 @@ const Explore = () => {
   );
 };
 
-export default Explore;
+export default Menu;

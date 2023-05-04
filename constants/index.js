@@ -11,18 +11,25 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    imgUrl: '/menula.png',
-    title: '【推】主菜單',
+    imgUrl: '/strawberrymash.png',
+    title: '【甜】草莓棉花糖',
   },
   {
     id: 'world-4',
     imgUrl: '/handmadecookie.png',
-    title: '【甜】手工餅乾',
+    title: '【零食】手工餅乾',
   },
   {
     id: 'world-5',
-    imgUrl: '/strawberrymash.png',
-    title: '【甜】草莓棉花糖',
+    imgUrl: '/toastlolipop.png',
+    title: '【零食】吐司棒棒糖'
+  }
+];
+
+export const menupng = [
+  {
+    id: '01',
+    imgUrl: '/menula.png',
   },
 ];
 
@@ -31,6 +38,7 @@ export const startingFeatures = [
   '香蕉巧克力🍌 - $40',
   '草莓棉花糖🍓 - $40',
   '手工餅乾🍪 - $20 / 加購價 $10',
+  '吐司邊棒棒糖🍭 - $10',
 ];
 
 export const newFeatures = [
@@ -50,4 +58,9 @@ export const newFeatures = [
 
 
 export const socials = [
+  {
+    name: 'yanyun',
+    url: '/instagram.svg',
+    link: 'https://instagram.com/yudong.jar?igshid=YmMyMTA2M2Y='
+  }
 ];
