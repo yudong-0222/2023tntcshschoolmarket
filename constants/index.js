@@ -22,23 +22,23 @@ export const exploreWorlds = [
   {
     id: 'world-5',
     imgUrl: '/toastlolipop.png',
-    title: '【零食】吐司棒棒糖'
+    title: '【隱藏】吐司邊'
   }
 ];
 
 export const menupng = [
   {
     id: '01',
-    imgUrl: '/menula.png',
+    imgUrl: '/supermenu.png',
   },
 ];
 
 export const startingFeatures = [
-  '火腿起司🍖 - $40',
-  '香蕉巧克力🍌 - $40',
-  '草莓棉花糖🍓 - $40',
+  '起司火腿🍖 - $35',
+  '香蕉巧克力🍌 - $20',
+  '草莓棉花糖🍓 - $20',
   '手工餅乾🍪 - $20 / 加購價 $10',
-  '吐司邊棒棒糖🍭 - $10',
+  '吐司邊 - $FREE',
 ];
 
 export const newFeatures = [
@@ -58,9 +58,4 @@ export const newFeatures = [
 
 
 export const socials = [
-  {
-    name: 'yanyun',
-    url: '/instagram.svg',
-    link: 'https://instagram.com/yudong.jar?igshid=YmMyMTA2M2Y='
-  }
 ];
